@@ -44,14 +44,14 @@ L'interfaccia Genre è un enum composto da
 - Per recuperare un user dal suo id
   http://localhost:8080/user/findById/{id}
   
-  - Per recuperare un user dal suo cognome
+- Per recuperare un user dal suo cognome
   http://localhost:8080/user/findBySurname/{surname}
   
-  - Per recuperare un user dal suo codice fiscale
+- Per recuperare un user dal suo codice fiscale
   http://localhost:8080/user/findByFiscalCode/{fiscalCode}
   
-  ## METODI DI SCRITTURA
-  - Metodo Post
+## METODI DI SCRITTURA
+- Metodo Post
 
     http://localhost:8080/user/add
 ```
