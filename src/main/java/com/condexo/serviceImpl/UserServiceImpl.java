@@ -56,6 +56,16 @@ public class UserServiceImpl implements UserService{
 				updateUser.setSurname(user.getSurname());
 			if(user.getPhoneNumber()!=null)
 				updateUser.setPhoneNumber(user.getPhoneNumber());
+			if(user.getZipCode()!=null)
+				updateUser.setZipCode(user.getZipCode());
+			if(user.getUserType()!= null)
+				updateUser.setUserType(user.getUserType());
+			if(user.getPassword()!= null)
+				updateUser.setPassword(user.getPassword());
+			if(user.getGenre()!=null) 
+				updateUser.setGenre(user.getGenre());
+			if(user.getAge()!=null)
+					updateUser.setAge(user.getAge());
 			if(user.getFiscalCode()!= null) {
 				if(userRepo.findByFiscalCode(user.getFiscalCode()).isPresent())
 					throw new UserException("esiste gia' un utente con questo codice fiscale");
