@@ -36,7 +36,7 @@ L'interfaccia Genre è un enum composto da
 - FEMALE
 - MALE
 
-## METODI DI RICERCA
+## Metodi di ricerca
 
 - Per recuperare tutti gli user presenti nel db 
   http://localhost:8080/user/getAll
@@ -50,7 +50,7 @@ L'interfaccia Genre è un enum composto da
 - Per recuperare un user dal suo codice fiscale
   http://localhost:8080/user/findByFiscalCode/{fiscalCode}
   
-## METODI DI SCRITTURA
+## Metodi di scrittura
 - Metodo Post
 
     http://localhost:8080/user/add
